@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Simone Gallucci – Curriculum Vitae</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #e5e7eb;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #1f2933;
+        }
+
+        /* PAGINA A4 */
+        .page {
+            width: 794px;
+            min-height: 1123px;
+            margin: 40px auto;
+            background: #ffffff;
+            display: grid;
+            grid-template-columns: 260px 1fr;
+        }
+
+        /* COLONNA SINISTRA */
+        .header {
+            background: #166534;
+            color: #ffffff;
+            padding: 40px 30px;
+        }
+
+        .header h1 {
+            font-size: 1.7rem;
+            margin-bottom: 10px;
+        }
+
+        .role {
+            font-size: 0.95rem;
+            margin-bottom: 25px;
+            opacity: 0.9;
+        }
+
+        .header h2 {
+            font-size: 1.05rem;
+            margin-top: 25px;
+            margin-bottom: 10px;
+            border-bottom: 1px solid rgba(255,255,255,0.4);
+            padding-bottom: 5px;
+        }
+
+        .header p,
+        .header li {
+            font-size: 0.88rem;
+            margin-bottom: 6px;
+        }
+
+        .header ul {
+            list-style: none;
+        }
+
+        /* CONTENUTO */
+        .content {
+            padding: 45px 50px;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section h2 {
+            font-size: 1.35rem;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #d1d5db;
+            padding-bottom: 4px;
+        }
+
+        .item {
+            margin-bottom: 18px;
+        }
+
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+        }
+
+        .date {
+            font-size: 0.9rem;
+            color: #4b5563;
+        }
+
+        .item-meta {
+            font-size: 0.9rem;
+            margin-bottom: 5px;
+        }
+
+        ul {
+            padding-left: 18px;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        /* STAMPA */
+        @media print {
+            body {
+                background: white;
+            }
+            .page {
+                margin: 0;
+                width: 100%;
+                min-height: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="page">
+
+    <!-- COLONNA SINISTRA -->
+    <aside class="header">
+        <h1>Simone Gallucci</h1>
+        <p class="role">Programmatore</p>
+
+        <h2>Informazioni personali</h2>
+        <p>Angeli di Rosora (Italia)</p>
+        <p>simone2005gallucci@gmail.com</p>
+        <p>+39 333 122 4518</p>
+
+        <h2>Lingue</h2>
+        <ul>
+            <li>Italiano – Madrelingua</li>
+            <li>Inglese – Buona conoscenza</li>
+        </ul>
+
+        <h2>Competenze digitali</h2>
+        <ul>
+            <li>C, C++</li>
+            <li>HTML, CSS, JavaScript</li>
+            <li>Python</li>
+            <li>Programmazione software</li>
+            <li>Cyber security (in apprendimento)</li>
+        </ul>
+
+        <h2>Tecnologie</h2>
+        <ul>
+            <li>Raspberry Pi</li>
+            <li>Arduino</li>
+            <li>Windows</li>
+            <li>Linux</li>
+        </ul>
+    </aside>
+
+    <!-- CONTENUTO PRINCIPALE -->
+    <main class="content">
+
+        <section class="section">
+            <h2>Profilo personale</h2>
+            <p>
+                Studente presso l’ITS Fabriano Academy e programmatore presso Logical System.
+                Interessato allo sviluppo software e alla cyber security, con forte motivazione
+                all’apprendimento continuo e alla crescita professionale in ambito informatico.
+            </p>
+        </section>
+
+        <section class="section">
+            <h2>Esperienza lavorativa</h2>
+
+            <div class="item">
+                <div class="item-header">
+                    <span>Programmatore</span>
+                    <span class="date">Dicembre 2025 – Presente</span>
+                </div>
+                <p class="item-meta">Logical System – Italia</p>
+                <ul>
+                    <li>Sviluppo e manutenzione di applicazioni software</li>
+                    <li>Collaborazione con il team di sviluppo</li>
+                    <li>Applicazione di buone pratiche di sicurezza informatica</li>
+                </ul>
+            </div>
+
+            <div class="item">
+                <div class="item-header">
+                    <span>Stagista Programmatore</span>
+                    <span class="date">Giugno 2025 – Settembre 2025</span>
+                </div>
+                <p class="item-meta">Logical System – Italia</p>
+                <ul>
+                    <li>Supporto alle attività di sviluppo software</li>
+                    <li>Affiancamento a sviluppatori senior</li>
+                    <li>Introduzione ai concetti base di cyber security</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Istruzione e formazione</h2>
+
+            <div class="item">
+                <div class="item-header">
+                    <span>ITS Fabriano Academy</span>
+                    <span class="date">2025 – In corso</span>
+                </div>
+                <p class="item-meta">Corso biennale post-diploma in ambito informatico</p>
+            </div>
+
+            <div class="item">
+                <div class="item-header">
+                    <span>Diploma di scuola secondaria superiore</span>
+                    <span class="date">2024</span>
+                </div>
+                <p class="item-meta">IIS Marconi Pieralisi</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Obiettivi professionali</h2>
+            <p>
+                Consolidare le competenze informatiche in programmazione e cyber security,
+                con l’obiettivo a lungo termine di intraprendere una carriera nell’insegnamento
+                in ambito informatico.
+            </p>
+        </section>
+
+        <section class="section">
+            <h2>Interessi</h2>
+            <ul>
+                <li>Programmazione</li>
+                <li>Cyber security</li>
+                <li>Elettronica di base</li>
+            </ul>
+        </section>
+
+    </main>
+
+</div>
+
+</body>
+</html>
